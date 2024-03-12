@@ -4,7 +4,7 @@ import nbformat
 import pandas as pd
 
 CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
-NOTEBOOK_PATH = f"{CURRENT_DIR}/analysis_corrige.ipynb"
+NOTEBOOK_PATH = f"{CURRENT_DIR}/analysis.ipynb"
 
 FUNCTION_NAMES = ['create_pokedex', 'filter_columns',
                   'rename_columns', 'clean_data', 'correct_columns_types', 'add_agility_column']
