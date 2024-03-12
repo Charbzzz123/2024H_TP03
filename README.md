@@ -97,7 +97,7 @@ Après avoir nettoyé votre ensemble de données, l'étape suivante est de véri
 
 #### 1.5 Ajout d'une colonne
 
-Maintenant que votre Pokédex est bien organisé et nettoyé, il est temps d'ajouter une nouvelle dimension à notre analyse. Nous allons calculer l'**Agilité** de chaque Pokémon, qui sera le rapport de la vitesse sur le poids du Pokémon. Cette mesure nous donnera une idée de la rapidité d'un Pokémon par rapport à sa taille, une donnée cruciale lors des combats. L'agilité peut révéler des stratèges cachés dans votre Pokédex, prêts à surprendre leurs adversaires par leur vivacité.
+Maintenant que votre Pokédex est bien organisé et nettoyé, il est temps d'ajouter une nouvelle dimension à notre analyse. Nous allons calculer l'**Agilité** de chaque Pokémon, qui sera le rapport de la vitesse sur le poids du Pokémon. Cette mesure nous donnera une idée de la rapidité d'un Pokémon par rapport à son poids, une donnée cruciale lors des combats. L'agilité peut révéler des stratèges cachés dans votre Pokédex, prêts à surprendre leurs adversaires par leur vivacité.
 
 **Note:** Assurez-vous d'arrondir le résultat à une décimale.
 

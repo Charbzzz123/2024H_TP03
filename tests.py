@@ -82,17 +82,6 @@ class TestPokedexAnalysis(unittest.TestCase):
         self.assertEqual(int, self.df["Attack"].dtype)
         self.assertEqual(bool, self.df["Legendary"].dtype)
 
-    """
-    def add_agility_column(df: pd.DataFrame) -> None:
-    Ajoute une colonne 'Agility' au DataFrame passé en paramètre.
-    La colonne 'Agility' est calculée en multipliant la colonne 'Speed' par la colonne 'Generation'.
-    L'opération est faite inplace.
-
-    @param df: Le DataFrame auquel ajouter la colonne 'Agility'.
-
-    df["Agility"] = round(df["Speed"] / df["Weight"], 1)
-    """
-
     # Note: Ce test ne fonctionnera que si vous avez bien implémenté les fonctions précédentes,
     # vu que l'ajout de la colonne 'Agility' se base sur les noms des colonnes renommées
     def test_add_agility_column(self):
